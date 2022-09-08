@@ -6,5 +6,5 @@ class Noti {
   final IconData icon;
   final bool check;
 
-  const Noti(this.id, this.dateCreated, this.typeof, this.title, this.content, this.icon, this.check);
+  Noti(this.id, this.dateCreated, this.typeof, this.title, this.content, this.icon, this.check);
 }
