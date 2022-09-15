@@ -35,6 +35,7 @@ class _ToDoListScreenState extends State<ToDoListScreen> {
                 icon: const Icon(Icons.add_circle),
                 onPressed: () {
                   _toDoCubit.addNewDataToDo(myController.text);
+                  myController.clear();
                 },
               ),
               IconButton(
